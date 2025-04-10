@@ -8,9 +8,9 @@ int main()
     while (1) 
     {
         // W 키가 눌렸는지 확인 (key down)
-        if (GetAsyncKeyState(VK_F2) & 0x8000) 
+        if (GetAsyncKeyState(0x41) & 0x8000)
         {
-            printf("F2 키 눌림 (Key Down)\n");
+            printf("A 키 눌림 (Key Down)\n");
         }
 
         //// S 키가 눌렸는지 확인 (key down)
