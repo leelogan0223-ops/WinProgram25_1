@@ -35,7 +35,8 @@ int main() {
         }
 
         // 잠시 대기 (CPU 사용 최적화)
-        Sleep(10);
+        Sleep(50);
+        system("cls");
     }
 
     return 0;

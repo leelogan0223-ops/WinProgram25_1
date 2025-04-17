@@ -14,12 +14,12 @@ int main() {
 
         // 화면 갱신 (드래그 중일 때만 위치 변경)
         system("cls");  // 화면 초기화
-        printf("현재 마우스 위치: (%d, %d)\n", mousePos.x / 9, mousePos.y / 19);
+        printf("현재 마우스 위치: (%d, %d)\n", mousePos.x / 10, mousePos.y / 18);
 
 
 
         // 마우스 위치 표시
-        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), (COORD) { mousePos.x / 9, mousePos.y / 19 });
+        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), (COORD) { mousePos.x / 10, mousePos.y / 18 });
         printf("<");
 
         // 종료 조건: Q 키를 누르면 프로그램 종료
