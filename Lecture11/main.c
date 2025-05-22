@@ -1,6 +1,7 @@
 #include <GLFW/glfw3.h>
 #include <math.h>
 
+#pragma comment(lib, "Opengl32.lib")
 #define PI 3.1415926535f
 
 typedef struct
