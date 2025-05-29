@@ -8,7 +8,7 @@
 #pragma comment(lib, "opengl32.lib")   // OpenGL 1.1 라이브러리 자동 링킹
 
 #include <GLFW/glfw3.h>               // GLFW 헤더 (윈도우 및 컨텍스트 관리용)
-#include <GL/gl.h>                     // OpenGL 1.1 함수 호출용 헤더
+//#include <GL/gl.h>                     // OpenGL 1.1 함수 호출용 헤더
 
 int main(void)
 {
